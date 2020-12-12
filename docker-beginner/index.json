@@ -9,11 +9,11 @@
         "steps": [
             {
                 "title" : "Introduction a Docker",
-                "text": "wait-k8s.md"
+                "text": "check.md"
             },
             {
-                "title" : "Prepare hosts with storage",
-                "text": "storage.md"
+                "title" : "Container en tache de fond",
+                "text": "tache_de_fond.md"
             },
             {
                 "title" : "Install Portworx",
