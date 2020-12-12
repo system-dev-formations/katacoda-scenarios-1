@@ -1,11 +1,15 @@
-Before installing Portworx, let's ensure Kubernetes is setup.
+Avant de commencer, nous allons verifier si docker est present
 
-### Step: Wait for Kubernetes to be ready
-
-Click the below section which waits for all Kubernetes nodes to be ready.
+### Step: Verification si docker est actif
+Execute les commandes suivantes pour voir si docker est actif
 ```
-./k8s-ready.sh
+docker version 
 ```{{execute T1}}
+```
+et 
+```
+docker ps  
+```{{execute T2}}
 
 
 ### Step: List Kubernetes nodes
