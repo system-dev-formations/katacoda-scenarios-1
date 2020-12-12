@@ -28,9 +28,13 @@ pour le detruire
 ```
 exit
 ```{{execute T1}
+
+et
+
 ```
 docker rm -f mycontainer 
 ```{{execute T1}}
+
 Pour le lancer en tache de fond
 ```
 docker run -d --name mycontainer centos
