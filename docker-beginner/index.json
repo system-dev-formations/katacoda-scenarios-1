@@ -19,7 +19,10 @@
                 "title" : "Le nettoyage",
                 "text": "nettoyage.md"
             },
-
+            {
+                "title" : "docker pause et unpause",
+                "text": "pause.md"
+            },
 
 
 
