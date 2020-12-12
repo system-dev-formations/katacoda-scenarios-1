@@ -16,6 +16,14 @@
                 "text": "tache_de_fond.md"
             },
             {
+                "title" : "Le nettoyage",
+                "text": "nettoyage.md"
+            },
+
+
+
+
+            {
                 "title" : "Install Portworx",
                 "text": "install-px.md"
             }

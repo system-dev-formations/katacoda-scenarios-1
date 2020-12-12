@@ -29,14 +29,18 @@ pour le detruire
 exit
 ```{{execute T1}}
 
-et  
+et rm -f fait un docker stop et docker rm en une commande  
 
 ```
 docker rm -f mycontainer
 ```{{execute T1}}
 
-Pour le lancer en tache de fond  
+Pour le lancer en tache de fond , avec le switch -d  
 ```
-docker run -d --name mycontainer centos
+docker run -it -d --name mycontainer centos /bin/bash
 ```{{execute T1}}
 
+Verification 
+```
+docker ps 
+```{{execute T1}}
