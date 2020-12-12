@@ -27,6 +27,16 @@
                 "title" : "changement a l'interieur d'un container",
                 "text": "changement.md"
             },
+            {
+                "title" : "Creer une image docker ",
+                "text": "docker_commit.md"
+            },
+            {
+                "title" : "Docker load et Docker save ",
+                "text": "load_save.md"
+            },
+
+
 
 
             {
