@@ -1,7 +1,7 @@
+
 ### executez ce container en tache de fond
 ```
-docker run -d --name mytest ubuntu /bin/bash / 
-  -c "while true; do date ; sleep 5; done"
+docker run -d --name mytest ubuntu /bin/bash  -c "while true; do date ; sleep 5; done"
 ```{{execute T1}}
 
 Verification des logs
@@ -19,7 +19,7 @@ Verification des logs
 docker logs mytest
 ```{{execute T1}}
 
-unpaused
+unpause
 ```
 docker  unpause mytest
 ```{{execute T1}}

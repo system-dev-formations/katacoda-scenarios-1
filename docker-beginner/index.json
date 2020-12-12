@@ -23,7 +23,10 @@
                 "title" : "docker pause et unpause",
                 "text": "pause.md"
             },
-
+            {
+                "title" : "changement a l'interieur d'un container",
+                "text": "changement.md"
+            },
 
 
             {
