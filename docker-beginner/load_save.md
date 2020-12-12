@@ -1,8 +1,5 @@
-
-### Telecharger une image de Docker Hub
-
 Faites un nettoyage , voir  Step 3
-
+### Telecharger une image de Docker Hub
 ```
 docker pull busybox:latest
 ```{{execute T1}}
@@ -27,6 +24,9 @@ Verification
 docker images
 ```{{execute T1}}
 
-
+Nous pouvons voir les meta-data qui ont construit l'image 
+```
+docker history busybox:latest
+```{{execute T1}}
 
 
