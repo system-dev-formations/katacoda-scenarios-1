@@ -24,15 +24,15 @@ et pour avoir a nouveau le shell
 docker attach mycontainer 
 ```{{execute T1}}
 
-pour le detruire   
+pour le detruire
 ```
 exit
-```{{execute T1}
+```{{execute T1}}
 
 et  
 
 ```
-docker rm -f mycontainer 
+docker rm -f mycontainer
 ```{{execute T1}}
 
 Pour le lancer en tache de fond  
