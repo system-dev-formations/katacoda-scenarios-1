@@ -1,8 +1,6 @@
-Commandes pause et unpause
-
 ### executez ce container en tache de fond
 ```
-docker run -d --name mytest ubuntu /bin/bash  \ 
+docker run -d --name mytest ubuntu /bin/bash / 
   -c "while true; do date ; sleep 5; done"
 ```{{execute T1}}
 

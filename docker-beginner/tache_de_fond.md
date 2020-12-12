@@ -1,4 +1,3 @@
-### Lancement d'un container 
 Executez la commande suivante pour demarrer un container centos qui lance un shell
 ```
 docker run -it --name mycontainer centos /bin/bash
