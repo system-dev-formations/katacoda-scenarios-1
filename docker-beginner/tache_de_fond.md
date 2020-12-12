@@ -1,5 +1,5 @@
 ### Lancement d'un container 
-Executez la commande pour le demarrage d'un container centos qui lance un shell
+Executez la commande suivante pour demarrer un container centos qui lance un shell
 ```
 docker run -it --name mycontainer centos /bin/bash
 ```{{execute T1}}
@@ -24,18 +24,18 @@ et pour avoir a nouveau le shell
 docker attach mycontainer 
 ```{{execute T1}}
 
-pour le detruire 
+pour le detruire   
 ```
 exit
 ```{{execute T1}
 
-et
+et  
 
 ```
 docker rm -f mycontainer 
 ```{{execute T1}}
 
-Pour le lancer en tache de fond
+Pour le lancer en tache de fond  
 ```
 docker run -d --name mycontainer centos
 ```{{execute T1}}
