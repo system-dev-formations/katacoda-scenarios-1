@@ -1,4 +1,4 @@
-
+Faites un nettoyage , voir  Step 3
 ### docker commit
 ```
 docker run -it --name test alpine

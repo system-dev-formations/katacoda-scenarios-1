@@ -1,4 +1,4 @@
-Faites un nettoyage , voir  Step 3
+
 ### Telecharger une image de Docker Hub
 ```
 docker pull busybox:latest
