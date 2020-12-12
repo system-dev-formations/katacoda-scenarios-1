@@ -3,6 +3,7 @@
     "icon": "fa-docker",
     "title": "Docker",
     "description": "Presentation de Docker ",
+    "time": "60",
     "difficulty": "Debutant",
     "details": {
         "steps": [

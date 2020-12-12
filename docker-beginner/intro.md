@@ -1,3 +1,7 @@
-[Portworx](https://portworx.com/) is a software defined persistent storage solution designed and purpose built for applications deployed as containers, via container orchestrators such as Kubernetes, Marathon and Swarm. It is a clustered block storage solution and provides a Cloud-Native layer from which containerized stateful applications programmatically consume block, file and object storage services directly through the scheduler.
+[Docker](https://www.docker.com/) est un software, ce n’est pas un langage de programmation, 
+c’est un ensemble d’outils pour construire des environnements d’exécution.
+Cet ensemble vous aide à résoudre les problèmes d’installation, de retour-arrière, 
+de distribution et de mise à jour de vos applications.
+Il est open source, c’est-à-dire que tout le monde peut contribuer à son développement.
 
-In this tutorial, you will learn how to deploy a 3 node Portworx Cluster.
+Ce tutorial vous permet d'apprendre les bases de Docker. 
